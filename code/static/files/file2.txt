@@ -1,0 +1,1 @@
+Google Maps is one of the most popular web-based map services. If you want to adjust its style you can easily define a custom style sheet and embed it as JSON element into your HTML-code. Help us build one. Looking for 2 more poeple to help me with this project. Not a problem ij you are beginer.

@@ -1,0 +1,1 @@
+As the name suggests, this project involves designing and building an Android-based home automation system by leveraging Arduino Uno and using Bluetooth as the wireless communication medium. This home automation system flaunts a simplistic design and is used to control 3 appliances. However, you can extend the system to control 6 or more devices. 

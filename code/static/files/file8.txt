@@ -1,0 +1,1 @@
+It will not be difficult for most of us to appreciate that a class in any school never has students of the same kind. Each student has an individual personality that defines their behaviour and interests. Not all of them are good at academics. It is thus an exciting task to work on the dataset of a class and analyse student performances.
