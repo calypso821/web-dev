@@ -9,11 +9,13 @@ Normalni uporabnik (brez računa)
 - razvrščanje projektov po (oceni, abecedi, datumu)
 - podroben ogleda projekta
 - izpolnitev aplikacije za sodelovanje na projektu (avtor projekta je preko maila kontaktiran o zanimanju)
-Registriran uporabnik (ima računa)
+- Registriran uporabnik (ima računa)
+
 Potrebna registracija:
 - ime (uporaba na spletni strani)
 - username in password (potreben pa prijavo v spletno aplikacijo)
 - email (potreben za prejemanje aplikacij)
+
 Funkcije:
 - vse kar lahko dela normalni uporabnik +
 - objavlanje svojih projektov (ime, kategorija, opis, slika)
