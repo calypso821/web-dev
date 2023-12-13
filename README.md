@@ -1,6 +1,6 @@
 ## Web application
 
-[report](report.pdf)
+![report](report.pdf)
 
 Spletna aplikacija je izdelana v PHP in MySQL podatkovno bazo. Za izgled sem si pomaga z Bootstrap frameworkom ki omogoča lažje in hitreje oblikovanje strani. Pri funkcionalnosti strani sem si pomagal z Vue apijem, uporabljen pri iskanju, filtriranju in sortiranje projektov za prikaz. Ajax poizvedbe pa sem pošiljal z axios apijem. Za pošiljanje mailov sem uporabil knjiznjico PHPMailer (direktorij – phpmailer1). PHP funkcija ‘mail’ potrebuje lokalni mail server za pošiljanje mailov, PHPMailer pa deluje preko SMTP z avtentikacijo. Poišljanje mailov poteka preko maila spletne strani (webproject209@gmail.com.) Vse uporabnikove vnose sem validiral na strani odjemalca in prav tako na strani strežnika.
 
