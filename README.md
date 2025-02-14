@@ -1,50 +1,100 @@
-## Web application
+# Web Project - Project Management Platform
 
-[report](report.pdf)
+A web application built with PHP and MySQL that allows users to share, discover and collaborate on projects. Features a responsive design using Bootstrap and dynamic functionality powered by Vue.js.
 
-Spletna aplikacija je izdelana v PHP in MySQL podatkovno bazo. Za izgled sem si pomaga z Bootstrap frameworkom ki omogoča lažje in hitreje oblikovanje strani. Pri funkcionalnosti strani sem si pomagal z Vue apijem, uporabljen pri iskanju, filtriranju in sortiranje projektov za prikaz. Ajax poizvedbe pa sem pošiljal z axios apijem. Za pošiljanje mailov sem uporabil knjiznjico PHPMailer (direktorij – phpmailer1). PHP funkcija ‘mail’ potrebuje lokalni mail server za pošiljanje mailov, PHPMailer pa deluje preko SMTP z avtentikacijo. Poišljanje mailov poteka preko maila spletne strani (webproject209@gmail.com.) Vse uporabnikove vnose sem validiral na strani odjemalca in prav tako na strani strežnika.
+## Features
 
-## Delovanje
-Normalni uporabnik (brez računa)
-- brskanje po objavljenih porjektih na spletni strani
-- filtiranja po kategorijah (WebDev, GameDev, Data Mining…)
-- iskanja po imenu in avtorju projekta
-- razvrščanje projektov po (oceni, abecedi, datumu)
-- podroben ogleda projekta
-- izpolnitev aplikacije za sodelovanje na projektu (avtor projekta je preko maila kontaktiran o zanimanju)
-- Registriran uporabnik (ima računa)
+### Public Access
+- Browse published projects
+- Filter projects by categories (WebDev, GameDev, Data Mining, etc.)
+- Search projects by name and author
+- Sort projects by rating, alphabetically, or date
+- View detailed project information
+- Apply to collaborate on projects (authors are notified via email)
 
-Potrebna registracija:
-- ime (uporaba na spletni strani)
-- username in password (potreben pa prijavo v spletno aplikacijo)
-- email (potreben za prejemanje aplikacij)
+### Registered Users
+Additional features available after registration:
+- Create and publish projects with:
+  - Title and description
+  - Category selection
+  - Image upload
+- Manage personal projects (edit/delete)
+- Access personal project dashboard
+- Rate other users' projects (like/dislike)
+- Manage account settings
 
-Funkcije:
-- vse kar lahko dela normalni uporabnik +
-- objavlanje svojih projektov (ime, kategorija, opis, slika)
-- urejanje + brisanje svojih projektov
-- oseba stran za prikaz svojih projektov (My projects)
-- oseba stran za prikaz + spremembe podatkov racuna (Account settings)
-- ocenjevanje projektov ostalih uporabnikov (like, dislike)
+## Technology Stack
 
-## Users and passwords
+### Backend
+- PHP (MVC Architecture)
+- MySQL Database
+- PHPMailer for email notifications
 
-user - pass1234
-student - vaje
-IronMerc - 1234test
+### Frontend
+- HTML5/CSS3
+- Bootstrap 5 for responsive design
+- Vue.js for dynamic interactions
+- jQuery
+- Axios for AJAX requests
 
+### Key Features
+- MVC architecture for clean code organization
+- Secure user authentication and authorization
+- Client and server-side input validation
+- Responsive design for all devices
+- Real-time project search and filtering
+- Email notifications via SMTP (Gmail)
 
-## Knjiznjice 
+## Installation
 
-Osnovno: PHP, HTML, CSS, JS, MySQL
+1. Clone the repository
+2. Set up a PHP environment with MySQL
+3. Install dependencies:
+```bash
+composer require phpmailer/phpmailer
+```
+4. Import the database schema from `sql/db.sql`
+5. Configure database connection in `model/DBInit.php`
+6. Configure email settings for PHPMailer
 
-* Bootstrap
-* Vue
-* jQuery  
+## Test Accounts
 
-* phpmailer - za posiljanje mailov preko gmail racuna
+For testing purposes, you can use these accounts:
+```
+Username: user     | Password: pass1234
+Username: student  | Password: vaje
+Username: IronMerc | Password: 1234test
+```
 
-Knjiznjica phpmailer skrbi za posiljanje mailov brez uporabne 
-lokalnega mail serverja preko gmail racuna webproject209@gmail.com
+## Project Structure
 
-INSTALL: "composer require phpmailer/phpmailer"
+```
+├── controller/           # Controller classes
+├── model/               # Database models
+├── view/                # View templates
+├── static/              # Static assets
+│   ├── css/
+│   ├── js/
+│   └── images/
+└── sql/                 # Database schema
+```
+
+## Security Features
+
+- Password hashing
+- SQL injection prevention
+- XSS protection
+- Input validation
+- Secure session management
+
+## Contributing
+
+1. Fork the repository
+2. Create your feature branch
+3. Commit your changes
+4. Push to the branch
+5. Create a Pull Request
+
+## License
+
+Copyright © 2022 Matic Knez. All rights reserved.
