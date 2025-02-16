@@ -14,7 +14,6 @@ A web application built with PHP and MySQL that allows users to share, discover 
 - View detailed project information
 - Apply to collaborate on projects (authors are notified via email)
 
-<br><br>
 <img src="resources/login_form.png" height="420"/><br><br>
 <img src="resources/register_form.png" width="420"/><br><br>
 
