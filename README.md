@@ -2,6 +2,8 @@
 
 A web application built with PHP and MySQL that allows users to share, discover and collaborate on projects. Features a responsive design using Bootstrap and dynamic functionality powered by Vue.js.
 
+<img src="resources/front_page.png" width="850"/><br><br>
+
 ## Features
 
 ### Public Access
@@ -11,6 +13,10 @@ A web application built with PHP and MySQL that allows users to share, discover 
 - Sort projects by rating, alphabetically, or date
 - View detailed project information
 - Apply to collaborate on projects (authors are notified via email)
+
+<br><br>
+<img src="resources/login_form.png" height="420"/><br><br>
+<img src="resources/register_form.png" width="420"/><br><br>
 
 ### Registered Users
 Additional features available after registration:
@@ -22,6 +28,9 @@ Additional features available after registration:
 - Access personal project dashboard
 - Rate other users' projects (like/dislike)
 - Manage account settings
+
+<img src="resources/create_project.png" width="450"/><br><br>
+<img src="resources/account_settings.png" width="450"/><br><br>
 
 ## Technology Stack
 
@@ -47,15 +56,28 @@ Additional features available after registration:
 
 ## Installation
 
-1. Clone the repository
-2. Set up a PHP environment with MySQL
-3. Install dependencies:
-```bash
-composer require phpmailer/phpmailer
-```
-4. Import the database schema from `sql/db.sql`
-5. Configure database connection in `model/DBInit.php`
-6. Configure email settings for PHPMailer
+1. Set up XAMPP:
+   - Download and install XAMPP from [https://www.apachefriends.org](https://www.apachefriends.org)
+   - Start Apache and MySQL services from XAMPP Control Panel
+
+2. Set up the project:
+   - Navigate to `C:\xampp\htdocs`
+   - Copy all project files to this directory
+
+3. Set up the database:
+   - Open phpMyAdmin (http://localhost/phpmyadmin)
+   - Create a new database named "web_project"
+   - Import the database from `sql/db.sql`
+
+4. PHPMailer is already included:
+   - Located in `libs/PHPMailer-6.9.3/`
+   - No additional installation required
+
+5. Access the application:
+   - Open your browser
+   - Navigate to `http://localhost/your-project-folder`
+
+[Rest of the README remains the same]
 
 ## Test Accounts
 

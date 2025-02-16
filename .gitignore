@@ -1,0 +1,46 @@
+# IDE / Development
+.idea/
+.vscode/
+*.swp
+*.swo
+*.swn
+.DS_Store
+
+# Sensitive data
+.env
+auth.json
+*.pem
+*.key
+
+# Composer
+/vendor/
+composer.lock
+
+# Cache and logs
+/logs/
+*.log
+.cache/
+
+# Uploaded content
+/img/uploads/
+/static/uploads/
+
+# PHPMailer
+/libs/PHPMailer-*/vendor/
+/libs/PHPMailer-*/docs/
+
+# Sessions
+/sessions/
+sess_*
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.backup
+
+# OS generated files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
