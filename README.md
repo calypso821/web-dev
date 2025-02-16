@@ -14,8 +14,8 @@ A web application built with PHP and MySQL that allows users to share, discover 
 - View detailed project information
 - Apply to collaborate on projects (authors are notified via email)
 
-<img src="resources/login_form.png" height="420"/><br><br>
-<img src="resources/register_form.png" width="420"/><br><br>
+<img src="resources/login_form.png" height="450"/><br><br>
+<img src="resources/register_form.png" width="450"/><br><br>
 
 ### Registered Users
 Additional features available after registration:
@@ -28,8 +28,8 @@ Additional features available after registration:
 - Rate other users' projects (like/dislike)
 - Manage account settings
 
-<img src="resources/create_project.png" width="450"/><br><br>
-<img src="resources/account_settings.png" width="450"/><br><br>
+<img src="resources/create_project.png" width="550"/><br><br>
+<img src="resources/account_settings.png" width="700"/><br><br>
 
 ## Technology Stack
 
